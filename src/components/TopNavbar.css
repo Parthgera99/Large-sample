@@ -1,0 +1,25 @@
+.headingTitle{
+    color: rgb(0, 0, 0);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5vw;
+    font-size: 1.5em;
+}
+.topNavbar{
+    display: flex;
+    flex-direction: row;
+
+}
+.logoMain{
+    width: 15%;
+    border-radius: 2vw;
+}
+.logo{
+    width: 15vw;
+    height: 15vw;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    position: absolute;
+    top: 5vw;
+    right: 5vw;
+}

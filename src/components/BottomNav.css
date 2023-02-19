@@ -1,0 +1,20 @@
+.bottomNav{
+    margin-top: 3vw;
+    position: fixed;
+    bottom: 3vw;
+    right: 7.5vw;
+    background-color: #F6F6F6;
+    border-radius: 5vw;
+    padding: 3vw;
+}
+.icon{
+    margin-top: auto; 
+    margin-left: 8.5vw;
+    margin-bottom: auto; 
+}
+.firstIcon{
+    margin-left: 3vw;
+}
+a {
+    -webkit-tap-highlight-color: transparent !important;
+  }

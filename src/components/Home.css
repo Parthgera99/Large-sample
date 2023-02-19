@@ -1,0 +1,119 @@
+div::-webkit-scrollbar{
+    display: none;
+  }
+
+
+.homeHeading{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vw;
+    overflow-y: hidden;
+    scrollbar-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    /* overflow-x: scroll; */
+    /* overflow-x: hidden; */
+}
+.forWidth{
+    margin-right: -5%;
+}
+/* .cardsList{
+
+} */
+.headingTitleHome{
+    margin-left: 3vw;
+    margin-top: 0;
+    margin-bottom: 2vw;
+    color:  #3F3F3F;
+    
+    /* margin-top: 10vw; */
+    font-size: 1.5em;
+}
+.arrow{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#leftArrow{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.card{
+    border-radius: 5vw;
+    width: 55vw ;
+    height: 60vw;
+    margin-right: 3vw;
+    transform: translateX(0%);
+    background-color: #F7F7F7;
+}
+.cardPics{
+    border-radius: 5vw 5vw 0 0;
+    width: 100%;
+    height: 65%;
+}
+.cardHeading{
+    text-align: left;
+    margin-left: 3vw;
+    margin-bottom: 1.5vw;
+    margin-right: 2vw;
+    font-size: 0.85em;
+    /* max-width: 100px; */
+    white-space: break-spaces;
+    /* word-break: break-word; */
+}
+.cardPara{
+    font-size: 0.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    /* white-space: break-spaces; */
+    word-wrap: break-word;
+    overflow: hidden;
+
+    
+}
+.cardDate{
+    font-size: 0.6em;
+    margin-left: 3vw;
+}
+.ratingsDiv{
+    background-color: #F6F6F6;
+    color: #3F3F3F;
+    font-size: 0.55em;
+    border-radius: 5vw;
+    padding-top: 0.1vw;
+    padding-left: 5vw;
+    margin-top: 7vw;
+}
+.ratingHeading{
+    margin-bottom: 2vw;
+}
+.star{
+    margin-top: 0;
+    margin-right: 2.5vw;
+    margin-bottom: 3vw;
+}
+.ratingsDiv{
+    margin-top: 8vw;
+    display: flex;
+    flex-direction: row;
+}
+.gamla{
+    width: 20%;
+    margin-left: 5vw;
+    margin-top: -5vw;
+}
+.workings{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vw;
+}
+.workingChild{
+    background-color: #F6F6F6;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3vw;
+    padding: 4vw;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
